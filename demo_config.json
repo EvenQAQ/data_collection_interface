@@ -1,0 +1,39 @@
+{
+    "audio": {
+        "config": {
+            "sampling_rate": 44100,
+            "n_channels": 4,
+            "channels_of_interest": [3],
+            "signal": "FMCW",
+            "frame_length": 512,
+            "sample_depth": 16,
+            "bandpass_range": [16000, 20000]
+        },
+        "files": [
+            "audio0.raw"
+        ],
+        "syncing_poses": [
+            0
+        ]
+    },
+    "ground_truth": {
+        "files": [
+            "ground_truth_1.txt"
+        ],
+        "syncing_poses": [
+            0
+        ]
+    },
+    "sessions": [
+        [
+            {
+                "start": 0,
+                "duration": 630
+            },
+            {
+                "start": 630,
+                "duration": 300
+            }
+        ]
+    ]
+}
